@@ -138,6 +138,36 @@ section.banner button{
 	padding: 1vw;
 	border: 0;
 }
+section.posts{
+	background-color: #EDF7FA;
+	padding: 3vw 2vw 3vw 2vw;
+}
+section.posts h2{
+	padding: 0 0 2vw 0;
+	font-size: 1.7rem;
+}
+section.posts ul{
+	display: flex;
+}
+section.posts ul li{
+	background-color: white;
+	margin: 0 1vw 0 0;
+	padding: 2vw 1vw 2vw 1vw;
+	border-radius: 15px;
+}
+section.posts ul li:last-child{
+	margin: 0 0 0 0;
+}
+section.posts ul li h3{
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+section.posts ul li p{
+	margin: 1.5vw 0 1.5vw 0;
+}
+section.ft-works h2{
+	font-size: 1.7rem;
+}
 /*===========================
 		  RODAPÉ
 =============================*/
